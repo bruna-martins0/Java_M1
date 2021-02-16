@@ -24,7 +24,7 @@ public class MainVector {
 		}
 		System.out.println();
 		System.out.println("Busy rooms:");
-		for (int i = 0; i < 10; i++) {
+		for (int i = 1; i < 10; i++) {
 			if (vect[i] != null) {
 				System.out.println(i + ": " + vect[i]);
 			}
